@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-text-size-adjust: none;
+}
+.header{
+    width:100%;
+    height: 0.5rem;
+    background: #ffecec;
+}
+.win{
+    width:100%;
+    height: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+.imgBox{
+    width: 400%;
+    height: 2rem;
+    background: #0AE5E8;
+    position: absolute;
+    top:0;
+    left:0;
+}
+ul > li{
+    width:6.4rem;
+    height:2rem;
+    float: left;
+}
+ul > li > a , img{
+    display: block;
+    width:100%;
+    height: 100%;
+}
